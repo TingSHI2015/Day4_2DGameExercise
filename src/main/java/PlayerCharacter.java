@@ -7,4 +7,10 @@ public class PlayerCharacter {
         return 0;
     }
 
+    public static int getY(int value){
+        return 0;
+    }
+
+
+
 }

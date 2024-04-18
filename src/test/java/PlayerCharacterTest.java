@@ -18,4 +18,18 @@ public class PlayerCharacterTest {
         assertEquals(expectedResult, actualResult, "test failed for testGetXReturnsZeroInitially");
     }
 
+    @Test
+    public void testGetYReturnsZeroInitially() {
+        //GIVEN
+        int value=0;
+
+        //WHEN
+        int actualResult = PlayerCharacter.getY(value);
+
+        //THEN
+        int expectedResult = 0;
+        assertEquals(expectedResult, actualResult, "test failed for testGetYReturnsZeroInitially");
+
+    }
+
 }
